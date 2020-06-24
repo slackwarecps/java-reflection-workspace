@@ -3231,3 +3231,248 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 16:16:55.154
 !MESSAGE executing callback sts4.classpath.XFLeMMtQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 16:50:24.527
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XFLeMMtQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 16:50:24.531
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XFLeMMtQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 16:50:24.534
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 16:50:24.536
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XFLeMMtQ => OK
+!SESSION 2020-06-24 17:05:49.564 -----------------------------------------------
+eclipse.buildId=4.6.0.202003181317-RELEASE
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\faapereira\OneDrive\Documentos\workspaces\java-reflection-workspace -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-06-24 17:06:06.100
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-24 17:06:06.100
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@105cdf61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@530bd77b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:13.899
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:13.906
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7f4ae871[org.springframework.tooling.boot.ls:1.15.0.202003180840(id=1069)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:13.915
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:14.063
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-06-24 17:06:18.088
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\faapereira'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.791
+!MESSAGE Boot LS startup time from start to initialized: 26856ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.894
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WzDRwgXoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.901
+!MESSAGE Sorting projects...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.910
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.915
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.921
+!MESSAGE Sorting projects... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.931
+!MESSAGE inside synchronized Subscriptions
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.943
+!MESSAGE subscribing to classpath changes: sts4.classpath.WzDRwgXo isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.951
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.965
+!MESSAGE subsribers = {sts4.classpath.WzDRwgXo=Send Classpath Notifications(109)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.971
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.984
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:40.992
+!MESSAGE Preparing classpath changed notification alurator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.007
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WzDRwgXo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.030
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.044
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.050
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.063
+!MESSAGE Preparing classpath changed notification alurator-playground
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.073
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.078
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator-playground false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.082
+!MESSAGE Preparing classpath changed notification estoque-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.086
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.092
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.096
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo estoque-api false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.100
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:06:41.141
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-06-24 17:08:21.110
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.459
+!MESSAGE Preparing classpath changed notification estoque-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.483
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.515
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.568
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo estoque-api false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.581
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:10:56.631
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.338
+!MESSAGE Preparing classpath changed notification alurator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.348
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.523
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.593
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.621
+!MESSAGE Preparing classpath changed notification alurator-playground
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.702
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.716
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.720
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator-playground false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.733
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:11:05.785
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.570
+!MESSAGE Preparing classpath changed notification estoque-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.576
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.579
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.589
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo estoque-api false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.591
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:18:15.601
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.742
+!MESSAGE Preparing classpath changed notification alurator-playground
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.747
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.750
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.753
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator-playground false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.755
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:03.782
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.256
+!MESSAGE Preparing classpath changed notification alurator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.259
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.262
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.266
+!MESSAGE buffering callback sts4.classpath.WzDRwgXo alurator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.268
+!MESSAGE executing callback sts4.classpath.WzDRwgXo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-24 17:19:24.283
+!MESSAGE executing callback sts4.classpath.WzDRwgXo SUCCESS [done]
