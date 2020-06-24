@@ -1,6 +1,9 @@
 package br.com.alura.alurator;
 
-import java.lang.reflect.InvocationTargetException;
+import java.util.Map;
+
+import br.com.alura.alurator.protocolo.Request;
+import br.com.alura.alurator.reflexao.Reflexao;
 
 public class Alurator {
 	
@@ -18,27 +21,25 @@ public class Alurator {
 		
 		// produto -> roduto
 		
-		String[] partesUrl = url.replaceFirst("/", "")
-								.split("/");
+		Request request = new Request(url);
 		
-		String nomeControle = Character.toUpperCase(partesUrl[0].charAt(0)) + 
-								partesUrl[0].substring(1) + "Controller";
+		String nomeControle = request.getNomeControle();
+		String nomeMetodo = request.getNomeMetodo();
+		Map<String, Object> params = request.getQueryParams();
 		
-		try {
-			Class<?> classeControle = Class.forName(pacoteBase + nomeControle);
+		Object retorno = new Reflexao()
+			                .refleteClasse( pacoteBase + nomeControle )
+			                .criaInstancia()
+			                .getMetodo(nomeMetodo, params)
+			                .comTratamentoDeExcecao((metodo, ex) -> {
+				                	System.out.println("Erro no método " + metodo.getName() + " da classe " 
+				                            + metodo.getDeclaringClass().getName() + ".\n\n");
+				                	throw new RuntimeException("Erro no método!");
+			                })
+			                .invoca();
 			
-			Object instanciaControle = classeControle.getDeclaredConstructor().newInstance();
-			
-			System.out.println(instanciaControle);
-			
-			return null;
-		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException 
-				| IllegalArgumentException | NoSuchMethodException | SecurityException e) {
-			e.printStackTrace();
-			throw new RuntimeException(e);
-		} catch (InvocationTargetException e) {
-			e.printStackTrace();
-			throw new RuntimeException("Erro no construtor!", e.getTargetException());
-		}
+		System.out.println(retorno);
+		
+		return retorno;
 	}
 }
