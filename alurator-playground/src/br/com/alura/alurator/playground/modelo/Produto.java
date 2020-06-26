@@ -1,9 +1,10 @@
-package br.com.alura.estoque.modelo;
+package br.com.alura.alurator.playground.modelo;
 
-import br.com.alura.alurator.conversor.anotacao.NomeTagXml;
+import br.com.alura.alurator.playground.anotacao.NomeTagXml;
 
-@NomeTagXml("produto")
-public class Produto {
+@NomeTagXml("p")
+public class Produto extends SuperProduto {
+	@NomeTagXml("n")
 	private String nome;
 	private double valor;
 	private String marca;
